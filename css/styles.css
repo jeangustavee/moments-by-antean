@@ -8,8 +8,6 @@ html { overflow-y: scroll; }
 body { font-family: sans-serif; }
 
 /* grid filter */
-/****** Navigation styling *******/
-
 .iso-nav {
   text-align: center;
 }
