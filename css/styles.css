@@ -24,6 +24,7 @@ ul li {
   -webkit-transition: all .5s ease;
   -moz-transition: all .5s ease;
   -ms-transition: all .5s ease;
+  text-transform: lowercase;
   transition: all .5s ease;
 }
 
