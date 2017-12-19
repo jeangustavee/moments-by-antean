@@ -62,6 +62,13 @@ ul li:hover {
   background-image: none;
 }
 
+/* --- pricing --- */
+.booking {
+  background-color: #e8e4e0;
+  border-color: #59483C;
+  padding: 20px;
+}
+
 /* ---- grid ---- */
 
 .grid {
