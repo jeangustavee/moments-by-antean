@@ -38,6 +38,30 @@ ul li:hover {
   color: #fff;
 }
 
+/* --- .btn --- */
+
+.btn-book {
+  color: #FFFFFF;
+  background-color: #1e1d1d;
+  border-color: #59483C;
+}
+
+.btn-book:hover,
+.btn-book:focus,
+.btn-book:active,
+.btn-book.active,
+.open .dropdown-toggle.btn-book {
+  color: #FFFFFF;
+  background-color: #1e1d1d;
+  border-color: #59483C;
+}
+
+.btn-book:active,
+.btn-book.active,
+.open .dropdown-toggle.btn-book {
+  background-image: none;
+}
+
 /* ---- grid ---- */
 
 .grid {
@@ -67,7 +91,7 @@ ul li:hover {
   width: 100%;
 }
 
-
+/* --- .menu --- */
 .menu-icon {
   height: 30px;
   width: 30px;
