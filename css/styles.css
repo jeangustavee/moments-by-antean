@@ -9,6 +9,7 @@ body { font-family: sans-serif; }
 
 /* grid filter */
 .iso-nav {
+  margin: 10px;
   text-align: center;
 }
 
