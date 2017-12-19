@@ -19,7 +19,7 @@ ul li {
   padding: 0;
   display: inline-block;
   padding: 10px 15px;
-  border: 1px solid #5274a9;
+  border: 1px solid #807065;
   cursor: pointer;
   -webkit-transition: all .5s ease;
   -moz-transition: all .5s ease;
@@ -28,12 +28,12 @@ ul li {
 }
 
 ul li:hover {
-  background: #5274a9;
+  background: #807065;
   color: #fff;
 }
 
 .active {
-  background: #5274a9;
+  background: #807065;
   color: #fff;
 }
 
