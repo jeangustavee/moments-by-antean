@@ -13,7 +13,7 @@ body { font-family: sans-serif; }
   text-align: center;
 }
 
-ul li {
+.iso-nav ul li {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -28,12 +28,12 @@ ul li {
   transition: all .5s ease;
 }
 
-ul li:hover {
+.iso-nav ul li:hover {
   background: #807065;
   color: #fff;
 }
 
-.active {
+.iso-nav .active {
   background: #807065;
   color: #fff;
 }
