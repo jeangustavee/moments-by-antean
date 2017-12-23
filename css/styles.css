@@ -7,6 +7,68 @@ html { overflow-y: scroll; }
 
 body { font-family: sans-serif; }
 
+/* grid filter */
+.iso-nav {
+  margin: 10px;
+  text-align: center;
+}
+
+.iso-nav ul li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  padding: 10px 15px;
+  border: 1px solid #807065;
+  cursor: pointer;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  text-transform: lowercase;
+  transition: all .5s ease;
+}
+
+.iso-nav ul li:hover {
+  background: #807065;
+  color: #fff;
+}
+
+.iso-nav .active {
+  background: #807065;
+  color: #fff;
+}
+
+/* --- .btn --- */
+
+.btn-book {
+  color: #FFFFFF;
+  background-color: #1e1d1d;
+  border-color: #59483C;
+}
+
+.btn-book:hover,
+.btn-book:focus,
+.btn-book:active,
+.btn-book.active,
+.open .dropdown-toggle.btn-book {
+  color: #FFFFFF;
+  background-color: #1e1d1d;
+  border-color: #59483C;
+}
+
+.btn-book:active,
+.btn-book.active,
+.open .dropdown-toggle.btn-book {
+  background-image: none;
+}
+
+/* --- pricing --- */
+.booking {
+  background-color: #e8e4e0;
+  border-color: #59483C;
+  padding: 20px;
+}
+
 /* ---- grid ---- */
 
 .grid {
@@ -36,7 +98,7 @@ body { font-family: sans-serif; }
   width: 100%;
 }
 
-
+/* --- .menu --- */
 .menu-icon {
   height: 30px;
   width: 30px;
